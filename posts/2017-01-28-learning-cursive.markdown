@@ -8,11 +8,11 @@ Here is a benchmark as to where my handwriting is at the moment:
 
 ![Hand writing starting point](../images/hand-writing/1-28-17.PNG)
 
-With my right hand I seem to have an odd mix of print and some sloppy form of cursive. While probably legible I want to have consistency and I think the best way to do that is to master cusrive writing. The reason I include my left hand is that I have always wanted to be ambi-dexterous and this provides an execellent way to train something without being able to use any experience.
+With my right hand I seem to have an odd mix of print and some sloppy form of cursive. While probably legible I want to have consistency and I think the best way to do that is to master cursive writing. The reason I include my left hand is that I have always wanted to be ambi-dexterous and this provides an excellent way to train something without being able to use any experience.
 
 ![Cursive practice OneNote](../images/hand-writing/cursive-practice-notebook.PNG)
 
-I've gathered several cursive practice sheets from the internet and set them as background images in this OneNote page. Using my stylus I'll trace over these practice sheets every day with both hands and record hand writing samples every week until I'm satisfied that I've achieved acceptable cursive writing with both hands.
+I've gathered several cursive practice sheets from the Internet and set them as background images in this OneNote page. Using my stylus I'll trace over these practice sheets every day with both hands and record hand writing samples every week until I'm satisfied that I've achieved acceptable cursive writing with both hands.
 
 # Resources
 1. [Cursive Writing Practice Sheets](http://toddler-net.com/cursive-numbers.html)
