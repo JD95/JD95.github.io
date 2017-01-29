@@ -33,6 +33,7 @@ main = do
             compile $ pandocCompiler
                 >>= loadAndApplyTemplate "templates/post.html"    postCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx
+                >>= applyFilter youtubeFilter
                 >>= relativizeUrls
 
         create ["archive.html"] $ do
@@ -72,3 +73,16 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+{- From: http://www.jonashietala.se/blog/2014/09/01/embedding_youtube_videos_with_hakyll/ -}
+-- Find and replace bare youtube links separated by <p></p>.
+youtubeFilter :: String -> String
+youtubeFilter = replaceAll regex (result . extractID)
+  where
+    regex = "<p>https?://www\\.youtube\\.com/watch\\?v=([A-Za-z0-9_-]+)</p>"
+    result = \x -> "<div class=\"video-wrapper\"><div class=\"video-container\"><iframe src=\"https://www.youtube.com/embed/" ++ x ++ "\" frameborder=\"0\" allowfullscreen/></div></div>"
+    extractID :: String -> String
+    extractID = reverse . drop 4 . reverse . drop (length ("<p>https://www.youtube.com/watch?v="::String))
+
+applyFilter :: (Monad m, Functor f) => (String-> String) -> f String -> m (f String)
+applyFilter transformator str = return $ (fmap $ transformator) str
