@@ -2,7 +2,16 @@
 title: The Three Stages of Learning
 ---
 
+Today I'm going to flesh out some ideas on the learning process which will be further explored in later posts.
 
+### Stages of Competence
+
+1. Unconscious Incompetence "You don't know what you don't know"
+2. Conscious Incompetence "You know what you don't know"
+3. Conscious Competence "You can do it, but you have to think"
+4. Unconscious Competence "You can do it in your sleep"
+
+This stages are symmetrical.
 
 ### Knowing Nothing
 
