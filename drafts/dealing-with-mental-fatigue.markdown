@@ -1,4 +1,3 @@
-
 ---
 title: Dealing With Mental Fatigue
 ---
