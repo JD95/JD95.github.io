@@ -1,0 +1,27 @@
+---
+title: Mind Map
+---
+
+### A Messy Mind
+
+Lately I've found myself struggling with periods of boredom. The one thing that should be impossible in an age of internet access. I could do anything, yet all that choice seems to shut down my motivation. No matter how much I tell myself that the world is at my finger tips, ripe for the taking, I don't want to do anything more than screw around.
+
+So motivation is my nemisis and ally. I know that I can't rely on "feeling good" or being "in the mood" to be productive, but at the same time I can't force myself to learn when I don't have that spark. Going through the motions is just as much of a waste of time as mindlessly watching Youtube.
+
+So in order to make learning more tractable, I decided to try making the problem smaller by mapping out what I know. I did this using trees where the nodes are categories and the leaves are topics. I've colored them based on my understanding, pink being woefully horrible and green being comfortable.
+
+The first question was how to organize everything. There are lots of ways I *could* do it, yet none of the early models scaled well. In the end, I decided to just categorize subjects as they were grouped and taught in school. So the first six big categories were Art, Science, English, Math, History, and PE.
+
+![Section 1](../images/mind-map-1.png)
+
+Now I can use this map as a way to systematically expand my knowledge. It makes sense that I should address my greatest weaknesses, science and history, first. To do so I'll traverse the tree until I find a leaf. In order to develop that subject I'll first expand the subject into sub domains, for example Biology can be broken up into Structual, Pysiological, Evolutionary, etc.
+
+This first step helps me get a broader understanding of the topic and make the concepts I have to learn tangeble.
+
+![Section 2](../images/mind-map-2.png)
+
+As I develop trees it makes sense to reorganize and make new connections. Not only will this make the map itself easier to understand, but it will also reinforce the actual mental model of all this stuff.
+
+The software I used to generate the trees was [yED](https://www.yworks.com/products/yed)
+
+
